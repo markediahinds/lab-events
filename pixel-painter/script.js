@@ -29,6 +29,13 @@ for (let cell of cells) {
     })
 }
 
+for (let cell of cells) {
+currColor.addEventListener('dblclick', () => {
+    cell.style.background = "white";
+    })
+}
+
+       
 
 
 // Working on one color to ensure I could make it work 
